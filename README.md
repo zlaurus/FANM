@@ -1,1 +1,1 @@
-# Coresets for Fast Causal Discovery with Additive Noise Model
+# Coresets for Fast Causal Discovery with the Additive Noise Model
