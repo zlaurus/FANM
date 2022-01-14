@@ -1,5 +1,3 @@
-#! -*- coding: utf-8 -*-
-
 import random
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.preprocessing import scale
@@ -132,9 +130,6 @@ def fanm_coreset(x, y, e=0.01, t=0.03, seed=1):
 
 
 def fast_ANM(data, t=0.03, e=0.01):
-    # random.seed(seed)
-    # np.random.seed(seed)
-
     data = scale(data)
     data_sorted0 = data[data[:, 0].argsort()]
     data_sorted1 = data[data[:, 1].argsort()]
